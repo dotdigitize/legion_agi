@@ -199,7 +199,7 @@ As we advance toward AGI, ethical considerations take on greater significance. T
 
 This approach aims to promote ethical development and equitable access to the technology while allowing for beneficial uses in national security and public interest.
 
-The ultimate goal of Legion AI is to become AGI or at least contribute towards the development of Artificial General Intelligence (AGI), a system that can understand and solve problems across various domains without human intervention. The potential for AGI to evolve into Artificial Superintelligence (ASI) presents enormous possibilities—and challenges—for society. By keeping the project open and collaborative, we aim to ensure that the development of AGI remains in the hands of the global community, rather than being monopolized by a few powerful entities.
+The primary objective of Legion AI is to achieve AGI or, at the very least, to aid in the development of Artificial General Intelligence (AGI), a system capable of understanding and addressing problems across diverse domains without human input. The potential for AGI to evolve into Artificial Superintelligence (ASI) brings significant opportunities—and challenges—for society. By fostering an open and collaborative project, we seek to keep AGI development within the global community’s control, preventing it from being dominated by a small number of powerful entities.
 
 ---
 

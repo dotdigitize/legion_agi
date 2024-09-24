@@ -189,11 +189,11 @@ The future scope of Legion AI involves scaling up the platform's capabilities, i
 
 As we move closer to AGI, ethical considerations become increasingly crucial. The potential for AGI to evolve into Artificial Superintelligence (ASI) presents extraordinary opportunities that are currently beyond our imagination. By keeping Legion AI as an open resource for non-commercial applications, we aim to democratize AGI development, ensuring that its progress remains in the hands of the broader community rather than being dominated by a privileged few.
 
-1. Open Resource: Legion AI will be available as freely accessible code, enabling developers and researchers to use, modify, and contribute to the project, while ensuring proper attribution to me, "Joey Perez."
+Open Resource: Legion AI will be available as freely accessible code, enabling developers and researchers to use, modify, and contribute to the project, with proper attribution to me, "Joey Perez." This open access fosters a collaborative environment where innovation can thrive, allowing users to adapt the code for their specific needs and share improvements with the community. Contributions will be encouraged, and clear guidelines will be established to ensure that all modifications align with the project's core values. By promoting transparency and inclusivity, we aim to build a robust ecosystem that empowers individuals and organizations to advance their AI initiatives while collectively enhancing the capabilities of Legion AI.
 
-2. Non-Commercial Use: The resource can be utilized by individuals, researchers, or organizations for educational, research, or personal projects, but not for profit, ensuring broader access without commercial exploitation.
+Commercial Use: The resource can be leveraged by individuals, researchers, or organizations for commercial applications. Any monetary gains generated from these applications will be reinvested into enhancing the Legion AI codebase. Additionally, data and insights derived from commercial use will be shared back into the community to foster collaborative growth and innovation within Legion AI.
 
-3. Military Use: The technology may also be employed for military applications, enabling defense organizations to utilize it for research or strategic purposes under regulated guidelines.
+Military Use: The technology may also be applied to unclassified military projects, enabling defense organizations to utilize it for research or strategic initiatives. In such cases, any enhancements made to cognitive capabilities must be shared with the community to contribute to the ongoing development of the main codebase.
 
 This approach aims to promote ethical development and equitable access to the technology while allowing for beneficial uses in national security and public interest.
 

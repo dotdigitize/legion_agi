@@ -30,7 +30,7 @@ The purpose of **Legion AI** is to address the limitations of current reasoning 
 
 Open-source models like LLaMA 3.1: 8B, as demonstrated in the provided code sample, have shown remarkable versatility across various tasks, including text generation, commonsense reasoning, and symbolic reasoning. These models are optimized for performance across a diverse range of applications, and their open-source nature enables the broader community to contribute to ongoing enhancements and innovations.
 
-By incorporating open-source local language models, Legion AI fosters an environment of accessibility and collaboration. This approach aligns with the project's mission to advance toward AGI through community-driven research, rather than depending on proprietary, commercial models.
+By integrating small, open-source local language models, Legion AI fosters an environment that emphasizes accessibility and collaboration. This approach aims to combine these models to form an advanced reasoning capability, regardless of training data size or model trimming methods used. It aligns with the project's mission to advance toward AGI through community-driven research, rather than depending on large proprietary, commercial models.
 
 ### Why Collaboration Matters
 

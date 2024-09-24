@@ -2,6 +2,21 @@
 # Legion AI: Collaborative Pathway Towards AGI
 
 ![LegionAI1 dotdigitize creativedisruptor](https://github.com/user-attachments/assets/8576e96a-84ed-47ac-89f3-9bde269390b6)
+---
+
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Methodology](#methodology)
+  - [PAST Method](#past-method)
+  - [RAFT Method](#raft-method)
+  - [EAT Method](#eat-method)
+- [Applications](#applications)
+- [Installation](#installation)
+- [Future Scope](#future-scope)
+- [Collaboration](#collaboration)
+
+---
 
 ## Overview
 
@@ -50,19 +65,6 @@ The applications of **Legion AI** are broad and span multiple industries. Here a
 This open-source project is designed to evolve, and contributions from researchers, engineers, and AI enthusiasts are not only welcomed but are a critical part of the project’s future success.
 
 
----
-
-## Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Methodology](#methodology)
-  - [PAST Method](#past-method)
-  - [RAFT Method](#raft-method)
-  - [EAT Method](#eat-method)
-- [Applications](#applications)
-- [Installation](#installation)
-- [Future Scope](#future-scope)
-- [Collaboration](#collaboration)
 
 ---
 

@@ -183,13 +183,11 @@ Moreover, retrieval will be aided by **Chain-of-Histories**, which uses past exp
 
 ## 5. Moving Towards AGI
 
-The ultimate goal of Legion AI is to contribute to the development of **Artificial General Intelligence (AGI)**, where agents are not only capable of understanding but also solving problems autonomously across various domains without human intervention. This system aims to simulate human-like reasoning, memory retention, and learning, providing a pathway toward achieving AGI.
-
 The future scope of Legion AI involves scaling up the platform's capabilities, integrating neural networks that mimic biological processes like synaptic plasticity and memory consolidation. Through **real-time learning**, **cross-domain integration**, and the introduction of **Chain of Memory** systems, the platform is set to advance toward AGI, wherein agents can operate across a multitude of tasks and domains seamlessly.
 
 ## 6. Open resource AGI
 
-As we advance toward AGI, ethical considerations take on greater significance. The prospect of AGI evolving into Artificial Superintelligence (ASI) brings forth both exciting opportunities and complex challenges. By maintaining Legion AI as an open resource for non-commercial and military applications, we strive to democratize AGI development, ensuring that its evolution is not controlled by a select few.
+As we advance toward AGI, ethical considerations take on greater significance. The prospect of AGI evolving into Artificial Superintelligence (ASI) brings forth both exciting opportunities. By maintaining Legion AI as an open resource for non-commercial and military applications, we strive to democratize AGI development, ensuring that its evolution is not controlled by a select few.
 
 1. Open Resource: Legion AI will be available as freely accessible code, enabling developers and researchers to use, modify, and contribute to the project, while ensuring proper attribution to me, "Joey Perez."
 

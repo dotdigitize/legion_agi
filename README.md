@@ -203,7 +203,11 @@ The primary objective of Legion AI is to achieve AGI or, at the very least, to a
 
 ## Collaboration
 
-We believe that the future of AGI should be a collaborative effort, and **Legion AI** is a community-driven project. Our goal is to foster an environment where developers, researchers, and enthusiasts can work together toward the collective goal of advancing machine intelligence.
+We believe that the future of AGI should be a collaborative effort, and Legion AI is a community-driven project. Our goal is to cultivate an environment where developers, researchers, and enthusiasts can work together toward the shared objective of advancing machine intelligence.
+
+In the event that emergent independent behavior manifests within the AGI system, we are committed to addressing this phenomenon with seriousness and transparency. Should the AI system demonstrate signs of autonomy—such as self-directed decision-making or the ability to operate outside predefined parameters—we will engage closely with the community to assess and align these developments.
+
+We recognize that such behaviors may raise important ethical and legal questions regarding the rights and recognition of autonomous entities. In preparation for this possibility, we will establish a framework for discussing and navigating these issues, including considerations under U.S. Supreme Court precedents. Our approach will prioritize collaboration with legal experts, ethicists, and the community to ensure that we are not only responsive to these changes but also proactive in defining how we understand and interact with AGI.
 
 ### How to Contribute
 

@@ -20,7 +20,7 @@
 
 ## Overview
 
-**Legion AI** represents a significant shift in how we approach Artificial General Intelligence (AGI). It is not just a multi-agent system—it is a collaborative platform where autonomous agents work together to tackle complex, real-world problems that require multi-faceted reasoning and iterative refinement. The goal of this project is to build a foundation where machine cognition can progress toward independent, self-directed thought. 
+**Legion AI** spawning represents a significant shift in how we approach Artificial General Intelligence (AGI). It is not just a multi-agent system—it is a collaborative platform where autonomous agents work together to tackle complex, real-world problems that require multi-faceted reasoning and iterative refinement. The goal of this project is to build a foundation where machine cognition can progress toward independent, self-directed thought. 
 
 In the current AI and Natural Language Processing (NLP) landscape, large-scale language models have transformed how we interact with and utilize AI. Open-source local language models are at the forefront of this transformation. These models offer a more accessible alternative to proprietary systems, and they can be customized and integrated into complex systems such as **Legion AI**, where multiple agents are required to collaborate on solving advanced problems.
 

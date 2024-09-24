@@ -28,9 +28,9 @@ The purpose of **Legion AI** is to address the limitations of current reasoning 
 
 ### The Role of Open-Source Models in AGI Development
 
-Open-source models like **LLaMA 3.1: 8B** and **Gemma2: 2B** that are used in the code sample provided here, have proven to me to be extremely versatile for a range of tasks such as text generation, commonsense reasoning, and even symbolic reasoning. These models are optimized with performance in mind across a range of tasks, and their open-source nature allows the broader community to contribute to improvements and innovations.
+Open-source models like LLaMA 3.1: 8B and Gemma2: 2B, as demonstrated in the provided code sample, have shown remarkable versatility across various tasks, including text generation, commonsense reasoning, and symbolic reasoning. These models are optimized for performance across a diverse range of applications, and their open-source nature enables the broader community to contribute to ongoing enhancements and innovations.
 
-By integrating open-source models like **LLaMA** and **Gemma** for example, **Legion AI** ensures that the project remains accessible and collaborative. This choice also aligns with the project's mission of advancing towards AGI through community-driven research, rather than relying on closed, commercial models.
+By incorporating open-source models like LLaMA and Gemma, Legion AI fosters an environment of accessibility and collaboration. This approach aligns with the project's mission to advance toward AGI through community-driven research, rather than depending on proprietary, commercial models.
 
 ### Why Collaboration Matters
 

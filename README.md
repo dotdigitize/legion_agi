@@ -1,5 +1,5 @@
 
-# Legion AI: Collaborative Pathway Towards AGI
+# Legion AI: Spawing a Pathway Towards AGI
 
 ![LegionAI1 dotdigitize creativedisruptor](https://github.com/user-attachments/assets/8576e96a-84ed-47ac-89f3-9bde269390b6)
 ---

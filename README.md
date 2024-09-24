@@ -34,7 +34,11 @@ By integrating small, open-source local language models, Legion AI fosters an en
 
 ### Why Collaboration Matters
 
-The challenges faced by today’s NLP systems include tasks that require not only large datasets but also reasoning and commonsense knowledge that go beyond memorization. Consider tasks such as commonsense reasoning, arithmetic, symbolic manipulation, and abstract problem-solving. These are domains where scaling alone is not sufficient to unlock a model's full potential. It requires more nuanced reasoning that can only be achieved through multi-agent collaboration.
+The limitations of modern NLP systems go beyond the need for large datasets; these systems face significant challenges when it comes to tasks that require true reasoning and commonsense knowledge rather than just pattern recognition or memorization. Complex tasks such as commonsense reasoning, arithmetic, symbolic manipulation, and abstract problem-solving demonstrate that scaling alone is insufficient to unlock a model's full potential. To succeed in these domains, nuanced reasoning must be developed—something that is more likely to be achieved through multi-agent collaboration than through singular models.
+
+To address these challenges, the goal of Legion AI is to explore and test current theories of human reasoning, particularly those associated with Global Workspace Theory (GWT) and Integrated Information Theory (IIT). GWT posits that human consciousness and reasoning arise from the integration of multiple cognitive processes through a "global workspace" where information is broadcast to different parts of the brain. Meanwhile, IIT focuses on how consciousness and complex thought emerge from integrated information across a network. Both theories, along with other models of cognition like Predictive Coding and Bayesian Brain Theory, provide frameworks for understanding how humans process information and reason through complex problems.
+
+By applying these cognitive frameworks to multi-agent AI systems, Legion AI aims to replicate the way humans solve problems across multiple domains. The goal is to build AI systems capable of advanced reasoning, which can bridge the gap between mere memorization and truly adaptive problem-solving, ultimately pushing toward the development of AGI.
 
 **Legion AI** aims to:
 

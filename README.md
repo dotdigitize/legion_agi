@@ -1,5 +1,5 @@
 
-# Legion AI: Spawning a Pathway Towards Desktop AGI
+# Legion AI: Spawning a Pathway Towards Mobile AGI
 
 ![LegionAI1 dotdigitize creativedisruptor](https://github.com/user-attachments/assets/8576e96a-84ed-47ac-89f3-9bde269390b6)
 ---

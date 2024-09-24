@@ -13,9 +13,9 @@ The purpose of **Legion AI** is to address the limitations of current reasoning 
 
 ### The Role of Open-Source Models in AGI Development
 
-Open-source models like **LLaMA 3.1: 8B** and **Gemma2: 2B** have proven to be extremely versatile for a range of tasks such as text generation, commonsense reasoning, and even symbolic reasoning. These models are optimized for performance across a range of tasks, and their open-source nature allows the broader community to contribute to improvements and innovations.
+Open-source models like **LLaMA 3.1: 8B** and **Gemma2: 2B** that are used in the code sample provided here, have proven to me to be extremely versatile for a range of tasks such as text generation, commonsense reasoning, and even symbolic reasoning. These models are optimized with performance in mind across a range of tasks, and their open-source nature allows the broader community to contribute to improvements and innovations.
 
-By integrating open-source models like **LLaMA** and **Gemma**, **Legion AI** ensures that the project remains accessible and collaborative. This choice also aligns with the project's mission of advancing AGI through community-driven research, rather than relying on closed, commercial models.
+By integrating open-source models like **LLaMA** and **Gemma** for example, **Legion AI** ensures that the project remains accessible and collaborative. This choice also aligns with the project's mission of advancing towards AGI through community-driven research, rather than relying on closed, commercial models.
 
 ### Why Collaboration Matters
 
@@ -29,9 +29,7 @@ The challenges faced by today’s NLP systems include tasks that require not onl
 
 ### Moving Beyond Current Approaches
 
-While open-source models like **LLaMA** and **Gemma** demonstrate the promise of few-shot learning, their ability to perform high-level reasoning is significantly enhanced in **Legion AI**. By creating an environment where agents not only collaborate but also learn from each other, the system refines ideas through back-and-forth reasoning. **Legion AI** goes beyond mere language model prompting by enabling deeper, multi-agent interaction.
-
-Imagine a future where agents in **Legion AI** represent experts in different fields, collaborating to solve business challenges, optimize machine learning models, or create new scientific theories. These agents are not just executing pre-programmed instructions—they are reasoning, critiquing, and iterating to reach a collective decision.
+While open-source local lanaguage models have demonstrate the promise of few-shot learning, their ability to perform high-level reasoning is significantly enhanced in **Legion AI**. By creating an environment where agents not only collaborate but also learn from each other, the system refines ideas through back-and-forth reasoning through different reasoning methods.  Imagine a future where agents in **Legion AI** represent experts in different fields, collaborating to solve business challenges, optimize machine learning models, or create new scientific theories. These agents are not just executing pre-programmed instructions—they are reasoning, critiquing, and iterating to reach a collective decision.
 
 ### Applications of Legion AI
 

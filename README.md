@@ -187,7 +187,7 @@ The ultimate goal of Legion AI is to contribute to the development of **Artifici
 
 The future scope of Legion AI involves scaling up the platform's capabilities, integrating neural networks that mimic biological processes like synaptic plasticity and memory consolidation. Through **real-time learning**, **cross-domain integration**, and the introduction of **Chain of Memory** systems, the platform is set to advance toward AGI, wherein agents can operate across a multitude of tasks and domains seamlessly.
 
-## 6. Ethical Implications and Open-Source Collaboration
+## 6. Open resource AGI
 
 As we advance toward AGI, ethical considerations take on greater significance. The prospect of AGI evolving into Artificial Superintelligence (ASI) brings forth both exciting opportunities and complex challenges. By maintaining Legion AI as an open resource for non-commercial and military applications, we strive to democratize AGI development, ensuring that its evolution is not controlled by a select few.
 

@@ -203,7 +203,7 @@ Military Use: The technology may also be applied to unclassified military projec
 
 This approach aims to promote ethical development and equitable access to the technology while allowing for beneficial uses in national security and public interest.
 
-The primary objective of Legion AI is to achieve AGI or, at the very least, to aid in the development of Mobile and Compact Artificial General Intelligence (DAGI), a system capable of understanding and addressing problems across diverse domains without human input. The potential for AGI to evolve into Artificial Superintelligence (ASI) brings significant opportunities—and challenges—for society. By fostering an open and collaborative project, we seek to keep AGI development within the global community’s control, preventing it from being dominated by a small number of powerful entities.
+The primary objective of Legion AI is to achieve AGI or, at the very least, to aid in the development of Mobile and Compact Artificial General Intelligence (AGI), a system capable of understanding and addressing problems across diverse domains without human input. The potential for AGI to evolve into Artificial Superintelligence (ASI) brings significant opportunities—and challenges—for society. By fostering an open and collaborative project, we seek to keep AGI development within the global community’s control, preventing it from being dominated by a small number of powerful entities.
 
 ---
 

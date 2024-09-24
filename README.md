@@ -192,7 +192,7 @@ The future scope of Legion AI involves scaling up the platform's capabilities, i
 As we advance toward AGI, ethical considerations take on greater significance. The prospect of AGI evolving into Artificial Superintelligence (ASI) brings forth both exciting opportunities and complex challenges. By maintaining Legion AI as an open resource for non-commercial and military applications, we strive to democratize AGI development, ensuring that its evolution is not controlled by a select few.
 
 
-The ultimate goal of Legion AI is to contribute towards the development of Artificial General Intelligence (AGI), a system that can understand and solve problems across various domains without human intervention. The potential for AGI to evolve into Artificial Superintelligence (ASI) presents enormous possibilities—and challenges—for society. By keeping the project open and collaborative, we aim to ensure that the development of AGI remains in the hands of the global community, rather than being monopolized by a few powerful entities.
+The ultimate goal of Legion AI is to become AGI or at least contribute towards the development of Artificial General Intelligence (AGI), a system that can understand and solve problems across various domains without human intervention. The potential for AGI to evolve into Artificial Superintelligence (ASI) presents enormous possibilities—and challenges—for society. By keeping the project open and collaborative, we aim to ensure that the development of AGI remains in the hands of the global community, rather than being monopolized by a few powerful entities.
 
 ---
 

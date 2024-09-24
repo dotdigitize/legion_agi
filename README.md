@@ -114,4 +114,4 @@ Whether you have ideas to enhance the reasoning mechanisms, agent behaviors, or 
 
 ---
 
-**Contact:** For inquiries, collaborations, or questions, reach out to the project maintainers at [email@example.com](mailto:email@example.com).
+**Contact:** For investor inquiries, collaborations, or questions, reach out to me **Joey Perez** at [businessangelinvestor@gmail.com](mailto:businessangelinvestor@gmail.com), or on my [LinkedIn](https://www.linkedin.com/in/creativedisruptor).

@@ -191,6 +191,13 @@ The future scope of Legion AI involves scaling up the platform's capabilities, i
 
 As we advance toward AGI, ethical considerations take on greater significance. The prospect of AGI evolving into Artificial Superintelligence (ASI) brings forth both exciting opportunities and complex challenges. By maintaining Legion AI as an open resource for non-commercial and military applications, we strive to democratize AGI development, ensuring that its evolution is not controlled by a select few.
 
+1. Open Resource: Legion AI will be available as a freely accessible platform, allowing developers and researchers to use, modify, and contribute to the project.
+
+2. Non-Commercial Use: The resource can be utilized by individuals, researchers, or organizations for educational, research, or personal projects, but not for profit, ensuring broader access without commercial exploitation.
+
+3. Military Use: The technology may also be employed for military applications, enabling defense organizations to utilize it for research or strategic purposes under regulated guidelines.
+
+This approach aims to promote ethical development and equitable access to the technology while allowing for beneficial uses in national security and public interest.
 
 The ultimate goal of Legion AI is to become AGI or at least contribute towards the development of Artificial General Intelligence (AGI), a system that can understand and solve problems across various domains without human intervention. The potential for AGI to evolve into Artificial Superintelligence (ASI) presents enormous possibilities—and challenges—for society. By keeping the project open and collaborative, we aim to ensure that the development of AGI remains in the hands of the global community, rather than being monopolized by a few powerful entities.
 

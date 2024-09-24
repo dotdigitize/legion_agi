@@ -124,7 +124,7 @@ To set up Legion AI, follow these steps:
 
 4. Run the system:
    ```bash
-   python legion_ai.py
+   python main_spawn.py
    ```
 
 ---

@@ -1,5 +1,6 @@
 
 # Legion AI
+![LegionAI1 dotdigitze creativedisruptor](https://github.com/user-attachments/assets/8576e96a-84ed-47ac-89f3-9bde269390b6)
 
 Welcome to **Legion AI** - a multi-agent system that spawns intelligent agents capable of solving complex problems collaboratively. This README will guide you through the setup, features, and future applications of the Legion AI system.
 
@@ -88,7 +89,7 @@ To set up Legion AI, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/legion-ai.git
+   git clone https://github.com/dotdigitize/legion-ai.git
    ```
    
 2. Navigate to the project directory:

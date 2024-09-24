@@ -218,7 +218,7 @@ We recognize that such behaviors may raise important ethical and legal questions
 
 Whether you have ideas to enhance the reasoning mechanisms, agent behaviors, or if you want to introduce new methodologies for problem-solving, we welcome your involvement.
 
-**Join us in shaping the future of AGI.**
+**Join us in shaping the future of desktop AGI.**
 
 ---
 

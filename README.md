@@ -187,7 +187,7 @@ The future scope of Legion AI involves scaling up the platform's capabilities, i
 
 ## 6. Open resource AGI
 
-As we advance toward AGI, ethical considerations take on greater significance. The prospect of AGI evolving into Artificial Superintelligence (ASI) brings forth both exciting opportunities. By maintaining Legion AI as an open resource for non-commercial and military applications, we strive to democratize AGI development, ensuring that its evolution is not controlled by a select few.
+As we move closer to AGI, ethical considerations become increasingly crucial. The potential for AGI to evolve into Artificial Superintelligence (ASI) presents extraordinary opportunities that are currently beyond our imagination. By keeping Legion AI as an open resource for non-commercial applications, we aim to democratize AGI development, ensuring that its progress remains in the hands of the broader community rather than being dominated by a privileged few.
 
 1. Open Resource: Legion AI will be available as freely accessible code, enabling developers and researchers to use, modify, and contribute to the project, while ensuring proper attribution to me, "Joey Perez."
 

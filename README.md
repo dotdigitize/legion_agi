@@ -215,7 +215,7 @@ The current implementation lays a foundational structure for a multi-agent AI sy
 8. **Theta Phase Precession and Feedback Coherence:** Integrate temporal dynamics and a feedback loop for better coherence between memory and language model responses.
 
 The next development cycle will focus on adding these advanced features to enhance the system’s capabilities, bringing it closer to simulating sophisticated cognitive processes and facilitating emergent behaviors in agent interactions.
-"""
+---
 
 
 ## 5. Moving Towards AGI

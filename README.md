@@ -24,7 +24,8 @@
 
 ## Screenshot:
 
-![Legion ai dotdigitize screenshot 2024-09-29 025033](https://github.com/user-attachments/assets/b2abdfd5-b6a9-4ac8-99b1-c46964063900)
+![Legion ai dotdigitize screenshot2](https://github.com/user-attachments/assets/83a892cb-ed6b-466a-9ac8-e1e7290888ed)
+
 
 In the current AI and Natural Language Processing (NLP) landscape, large-scale language models have transformed how we interact with and utilize AI. Open-source local language models are at the forefront of this transformation. These models offer a more accessible alternative to proprietary systems, and they can be customized and integrated into complex systems such as **Legion AI**, where multiple agents are required to collaborate on solving advanced problems.
 

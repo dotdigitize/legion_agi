@@ -396,7 +396,7 @@ class ThoughtValidator:
     def __init__(self, model: str = "llama3.1:8b"):
         self.model = model
 
-    def validate(self, reasoning_chain: "str") -> bool:
+    def validate(self, reasoning_chain: str) -> bool:
         prompt = (
             "As a Thought Validator, assess the following reasoning chain for logical "
             "consistency, factual accuracy, and completeness. Respond with 'Validated' if "
@@ -530,6 +530,7 @@ class FinalAgent:
             "additional text.\n"
             "Do not mention the agents or the conversation.\n"
             "Focus on practical applications and actionable steps.\n"
+            "Ensure each section is at least 1000 words long, with comprehensive details.\n"
             "Begin your how-to manual now."
         )
         messages = [{'role': 'user', 'content': prompt}]
@@ -667,12 +668,13 @@ class ChatManager:
     def run_collaborative_reasoning(self, message: str) -> Optional[str]:
         if self.phase == "PAST":
             self.iteration_count += 1
-            app_logger.info(f"--- Phase 1: Initial Spawning ---\n")
+            app_logger.info(f"--- Phase 1: Initial Spawning (PAST) ---\n")
             combined_conversation = self.conversation_history.copy()
             contributions = []
             reasoning_branches: Dict[str, str] = {}
             validated_branches: Dict[str, str] = {}
 
+            # Each agent contributes based on their defined role.
             for agent in self.agents:
                 if isinstance(agent, GuidingAgent):
                     reminder = agent.respond(combined_conversation, self.original_question)
@@ -695,6 +697,7 @@ class ChatManager:
                         self.conversation_history.append({'role': self.guiding_agent.name, 'content': reminder})
                         app_logger.info(f"{self.guiding_agent.name} provided a reminder to stay on topic.\n")
 
+            # Validation and Thought Evaluation (RAFT Method)
             for agent_name, reasoning_chain in reasoning_branches.items():
                 is_valid = self.thought_validator.validate(reasoning_chain)
                 if is_valid:
@@ -703,6 +706,7 @@ class ChatManager:
                 else:
                     app_logger.info(f"{agent_name}'s reasoning is Invalidated.\n")
 
+            # Proceed to compile how-to manual if any branches are validated
             if validated_branches:
                 valid_contributions = [reasoning_chain for reasoning_chain in validated_branches.values()]
                 final_manual = self.final_agent.compile_manual(
@@ -721,12 +725,13 @@ class ChatManager:
 
         elif self.phase == "ADVANCED_REASONING":
             self.iteration_count += 1
-            app_logger.info(f"--- Phase 2: Advanced Reasoning ---\n")
+            app_logger.info(f"--- Phase 2: Advanced Reasoning (RAFT & EAT) ---\n")
             combined_conversation = self.conversation_history.copy()
             contributions = []
             reasoning_branches: Dict[str, str] = {}
             validated_branches: Dict[str, str] = {}
 
+            # Refinement and Evaluation Agents if not already created
             if not self.refinement_agent:
                 refinement_agent_info = {
                     "Name": "RefinementAgent",
@@ -772,6 +777,7 @@ class ChatManager:
                 self.agents.append(self.evaluation_agent)
                 app_logger.info(f"EvaluationAgent '{self.evaluation_agent.name}' has been created.")
 
+            # Each agent contributes during the advanced reasoning phase.
             for agent in self.agents:
                 if isinstance(agent, (GuidingAgent, RefinementAgent, EvaluationAgent)):
                     if isinstance(agent, RefinementAgent):
@@ -795,6 +801,7 @@ class ChatManager:
                         app_logger.info(f"{agent.name} provided a reminder to stay on topic.\n")
                     continue
 
+                # For other agents (not GuidingAgent, RefinementAgent, EvaluationAgent)
                 app_logger.info(f"{agent.name} is refining their response...\n")
                 agent_response = agent.respond(combined_conversation)
                 combined_conversation.append({'role': agent.name, 'content': agent_response})
@@ -809,6 +816,7 @@ class ChatManager:
                         self.conversation_history.append({'role': self.guiding_agent.name, 'content': reminder})
                         app_logger.info(f"{self.guiding_agent.name} provided a reminder to stay on topic.\n")
 
+            # RAFT Process for Validation and Feedback
             for agent_name, reasoning_chain in reasoning_branches.items():
                 is_valid = self.thought_validator.validate(reasoning_chain)
                 if is_valid:
@@ -817,6 +825,7 @@ class ChatManager:
                 else:
                     app_logger.info(f"{agent_name}'s reasoning is Invalidated.\n")
 
+            # Compile final how-to manual if there are validated branches
             if validated_branches:
                 valid_contributions = [reasoning_chain for reasoning_chain in validated_branches.values()]
                 final_manual = self.final_agent.compile_manual(
@@ -849,7 +858,7 @@ class ChatManager:
         app_logger.info(f"Visualization: {step}")
 
     def start_chat(self) -> None:
-        print("Welcome to the Advanced Multi-Agent Chat Session!")
+        print("Welcome to the Legion AI multi-agent spawning and reasoning system.")
         print("Type '/exit' to quit the program.\n")
 
         while True:

@@ -1,7 +1,8 @@
 
 # Legion AI: Spawning a Pathway Towards AGI
 
-![LegionAI1 dotdigitize creativedisruptor](https://github.com/user-attachments/assets/8576e96a-84ed-47ac-89f3-9bde269390b6)
+![main concept banner3](https://github.com/user-attachments/assets/e2da92cd-89ee-4c6a-a060-2024dd08bdcc)
+
 ---
 
 ## Table of Contents

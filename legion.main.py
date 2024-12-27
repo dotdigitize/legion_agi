@@ -27,35 +27,47 @@ from brian2 import ms, NeuronGroup, SpikeMonitor, start_scope, run  # Import ms 
 # Configure Logging to Write to 'debug_log.txt'
 app_logger.add("debug_log.txt", rotation="10 MB", level="DEBUG")
 
-# Quantum-Inspired Memory Mechanism
+# Quantum-Inspired Memory Mechanism with von Neumann Operations Algebra
+
 class QuantumMemory:
     def __init__(self, num_qubits):
         self.num_qubits = num_qubits
         self.dev = qml.device('default.qubit', wires=num_qubits)
-        self.state = None
+        self.state = None  # Stores the density matrix
 
     def initialize_state(self, state_vector):
-        @qml.qnode(self.dev)
-        def circuit():
-            qml.QubitStateVector(state_vector, wires=range(self.num_qubits))
-            return qml.state()
-        self.state = circuit()
+        # Initialize with a pure state represented by a density matrix
+        ket = np.array(state_vector, dtype=complex)
+        bra = ket.conj().T
+        self.state = np.outer(ket, bra)
 
     def apply_operator(self, operator):
-        @qml.qnode(self.dev)
-        def circuit():
-            qml.QubitStateVector(self.state, wires=range(self.num_qubits))
-            operator()
-            return qml.state()
-        self.state = circuit()
+        # Apply a quantum operator (superoperator in Liouville space)
+        # operator is a function that takes and returns a density matrix
+        self.state = operator(self.state)
 
-    def measure(self):
-        probabilities = np.abs(self.state) ** 2
-        collapsed_state = np.random.choice(len(self.state), p=probabilities)
-        measured_state = np.zeros_like(self.state)
-        measured_state[collapsed_state] = 1.0
-        self.state = measured_state
-        return collapsed_state
+    def von_neumann_measurement(self, observable):
+        # Perform a von Neumann measurement with respect to the given observable
+        # Diagonalize the observable
+        eigenvalues, eigenvectors = np.linalg.eigh(observable)
+        probabilities = np.array([np.trace(np.dot(eigvec[:, np.newaxis], eigvec[np.newaxis, :].conj()).T @ self.state)
+                                  for eigvec in eigenvectors.T])
+        probabilities = np.real(probabilities)
+        probabilities /= np.sum(probabilities)  # Normalize probabilities
+
+        # Choose a measurement outcome based on probabilities
+        outcome = np.random.choice(len(eigenvalues), p=probabilities)
+        measured_eigenstate = np.dot(eigenvectors[:, outcome], eigenvectors[:, outcome].conj().T)
+        measured_eigenstate = measured_eigenstate[np.newaxis, :, :].T  # Reshape for consistency
+        self.state = measured_eigenstate
+        return eigenvalues[outcome]
+
+    def measure(self, observable=None):
+        # Perform a measurement using the von Neumann measurement method
+        if observable is None:
+            # Default to computational basis measurement
+            observable = np.eye(2**self.num_qubits)
+        return self.von_neumann_measurement(observable)
 
 # Spiking Neural Network Memory Module using Brian2
 class SpikingNeuron:
@@ -171,13 +183,18 @@ class MemoryModule:
 
     def consolidate_memory(self):
         if self.short_term_memory:
-            coefficients = np.array(
-                [1/np.sqrt(len(self.short_term_memory))] * len(self.short_term_memory),
-                dtype=complex
-            )
-            self.quantum_memory.initialize_state(coefficients)
-            self.quantum_memory.apply_operator(lambda: None)
+            # Create a superposition of short-term memories
+            num_memories = len(self.short_term_memory)
+            coefficients = np.array([1/np.sqrt(num_memories)] * num_memories, dtype=complex)
+            memory_states = np.array(self.short_term_memory, dtype=complex)
+            # Initialize quantum state as a superposition
+            state_vector = np.sum(coefficients[:, np.newaxis] * memory_states, axis=0)
+            self.quantum_memory.initialize_state(state_vector)
+            # Apply an operator (e.g., identity)
+            self.quantum_memory.apply_operator(lambda rho: rho)
+            # Measure the quantum state
             collapsed_state = self.quantum_memory.measure()
+            # Retrieve the consolidated memory
             consolidated_memory = self.short_term_memory[collapsed_state]
             self.long_term_memory.append(consolidated_memory)
             self.short_term_memory.clear()
@@ -187,6 +204,7 @@ class MemoryModule:
             self.spiking_neuron.set_input_current(1.5)  # Adjust the current as needed
             spikes = self.spiking_neuron.stimulate(duration=100*ms)
             if spikes > 0:
+                # Recall the most recent long-term memory
                 return self.long_term_memory[-1]
             else:
                 return None
@@ -260,7 +278,9 @@ class Agent:
         # Quantum-inspired decision-making
         qm = QuantumMemory(num_qubits=1)
         qm.initialize_state(np.array([1/np.sqrt(2), 1/np.sqrt(2)], dtype=complex))
-        qm.apply_operator(lambda: None)
+        # Apply an operator, e.g., Pauli-X gate
+        operator = qml.matrix(qml.PauliX(wires=0))
+        qm.apply_operator(lambda rho: operator @ rho @ operator.conj().T)
         decision = qm.measure()
         if decision == 0:
             # Collaborate with another agent

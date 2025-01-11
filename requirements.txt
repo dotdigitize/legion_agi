@@ -5,6 +5,6 @@ scipy
 sympy
 qiskit
 pennylane
-brain2
+brian2
 torch
 transformers

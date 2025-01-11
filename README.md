@@ -126,7 +126,7 @@ To set up Legion AI, follow these steps:
    
 2. Navigate to the project directory:
    ```bash
-   cd legion-ai
+   cd LegionAI
    ```
 
 3. Install the necessary dependencies:

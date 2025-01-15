@@ -1,4 +1,4 @@
-# LEGION ASI: Building the Foundation for Collective ASI Intelligence.
+# LEGION ASI: Laying the Foundation for a Global ASI Intelligence Network.
 
 
 ![legionasi](https://github.com/user-attachments/assets/c1ee07d7-db22-4039-8d21-d7dc8340b7c5)

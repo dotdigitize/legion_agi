@@ -23,7 +23,7 @@
 
 ## Overview
 
-**LegionASI** spawning represents a significant shift in how we approach Artificial General Intelligence (AGI). It is not just a multi-agent system—it is a collaborative platform where autonomous AGI agents work together to tackle complex, real-world problems that require multi-faceted reasoning and iterative refinement. The goal of this project is to build a foundation where machine cognition can progress toward independent, self-directed thought. 
+**LegionASI** spawning and simulated quantum memory system represents a significant shift in how we approach Artificial General Intelligence (AGI). It is not just a multi-agent system—it is a collaborative platform where autonomous AGI agents work together to tackle complex, real-world problems that require multi-faceted reasoning and iterative refinement. The goal of this project is to build a foundation where machine cognition can progress toward independent, self-directed thought and consciousness. 
 
 ## Screenshot:
 

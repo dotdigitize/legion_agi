@@ -120,12 +120,12 @@ To set up Legion AI, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/dotdigitize/legion-ai.git
+   git clone https://github.com/dotdigitize/legion-asi.git
    ```
    
 2. Navigate to the project directory:
    ```bash
-   cd LegionAI
+   cd LegionASI
    ```
 
 3. Install the necessary dependencies:

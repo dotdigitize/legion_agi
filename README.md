@@ -7,7 +7,7 @@
 ---
 
 ## Table of Contents
--[Official Website](https://LegionASI.com)
+- [Official Website](https://LegionASI.com)
 - [Overview](#overview)
 - [Features](#features)
 - [Methodology](#methodology)

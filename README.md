@@ -2,6 +2,10 @@
 
 ![main concept banner3](https://github.com/user-attachments/assets/e2da92cd-89ee-4c6a-a060-2024dd08bdcc)
 
+<video width="720" height="480" controls>
+  <source src=".[/path/to/video.mp4](https://www.legionasi.com/public_uploads/asi.mp4)" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 ---
 
 ## Table of Contents

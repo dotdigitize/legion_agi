@@ -139,126 +139,197 @@ To set up Legion AI, follow these steps:
 
 # Future Scope
 
-The development of **LegionASI** aims to emulate complex human cognitive functions through an intricate integration of memory systems, quantum-inspired processes, and multi-agent interactions. While many of the elements we are attempting to simulate are theoretical or speculative, including them in our architecture allows us to explore their potential impacts on artificial intelligence. This aligns with recent research that highlights the possibility of quantum processes playing a role in human consciousness, particularly through structures like microtubules.
+LegionASI introduces a revolutionary self-evolving memory system designed to emulate complex human reasoning processes by integrating advanced neural memory structures, step-by-step reasoning methodologies, and dynamic reward-driven models. This memory framework serves as the core engine driving LegionASI’s ability to reason, learn, and adapt continuously, enabling superior problem-solving capabilities across diverse domains, from mathematics to real-world decision-making.
 
-Microtubules, which are structural components of neurons, have been proposed as critical players in maintaining quantum coherence in the brain. Theories like the Orch-OR (Orchestrated Objective Reduction) proposed by Roger Penrose and Stuart Hameroff, suggest that consciousness arises from quantum computations occurring within microtubules inside neurons. These findings give a basis to our attempt to replicate some aspects of quantum dynamics within our AI's memory systems, as they hint at a possible physical mechanism through which consciousness may emerge in biological systems.
+## Core Components of LegionASI’s Memory Framework
 
-By attempting to replicate the quantum coherence behaviors theorized to occur in microtubules, we provide the opportunity for emergent phenomena—phenomena that might be missed if we chose a strictly classical approach. This means that even though we cannot currently prove these quantum effects are responsible for consciousness, the potential insights gained through simulation and experimentation make it a worthwhile endeavor.
+### 1. Self-Evolving Policy and Memory Models
 
-To implement these quantum concepts practically, we simplify them using John von Neumann's operational algebra, which provides an elegant mathematical framework for managing complex state transitions and decision-making processes. Von Neumann algebra helps make the simulation of quantum phenomena computationally feasible, allowing us to represent superpositions and state collapses without the overwhelming complexity of full quantum mechanical modeling. This simplification bridges the gap between quantum theory and classical computing, offering an accessible way to model quantum-inspired decision-making that might underpin more advanced forms of intelligence.
+At the foundation lies a self-evolving policy model paired with a process-driven reward mechanism, collaboratively enhancing LegionASI’s reasoning through continuous self-refinement.
 
-The Future Scope section aims to articulate both the already implemented and the missing components that we plan to add. These additions will enable the system to evolve into a real-time, adaptive, and learning architecture, similar to the human brain. This gradual, layered development strategy moves us toward achieving Artificial General Intelligence (AGI), where the system not only solves problems but also learns and evolves over time, achieving a greater level of sophistication and understanding in interactions.
+#### Process Overview:
 
-By including speculative quantum-inspired elements and simplifying them with von Neumann's mathematical constructs, **LegionASI** attempts to push beyond conventional limits of machine learning. We hope to discover and model cognitive processes that may lead to emergent behavior—a critical aspect of AGI. This theoretical exploration, even if partially implemented, positions our architecture to take advantage of novel insights into both artificial and human cognition.
+- **Initial Data Collection:** Aggregate extensive datasets of problem scenarios to establish the initial memory framework.
+- **Policy Model Bootstrapping:** Train an initial policy model to generate reasoning trajectories, serving as the decision-making core.
+- **Monte Carlo Tree Search (MCTS) Rollouts:** Explore multiple potential solutions, constructing a search tree of reasoning paths evaluated for correctness.
+- **Process Reward Model (PRM) Training:** Assign scores to intermediate steps within each trajectory to retain high-quality reasoning paths.
+- **Iterative Self-Evolution:** Refine both the policy and reward models through successive iterations, enhancing reasoning capabilities.
 
----
+#### Future Enhancements:
 
-## 1. Quantum-Inspired Memory Representation and Dynamics
+- **Hamiltonian State Evolution:** Incorporate true Hamiltonian dynamics for realistic internal state transformations.
+- **Von Neumann Operational Algebra:** Integrate operator algebra to manage complex state transitions and non-commutative decision-making.
 
-### Implemented Elements:
-- **Quantum Memory Superposition:** The `QuantumMemory` class uses PennyLane to represent memory states with quantum-inspired mechanics, allowing memory to be in superposition. The states are manipulated and measured similarly to quantum state collapse, introducing some randomness.
-- **Quantum Decision-Making:** The superposition and measurement of quantum states are used to determine agent decisions, mimicking quantum uncertainty and coherence-like behaviors.
+### 2. Step-by-Step Reasoning Trajectory Generation
 
-### Missing Elements:
-- **Hamiltonian State Evolution:** True Hamiltonian evolution of states, involving complex and dynamic operations over time, isn't explicitly represented. Implementing Hamiltonian dynamics could allow agents to evolve their internal states more realistically, mirroring quantum systems.
-- **Quantum Coherence Mechanisms:** Quantum coherence and decoherence in memory processes are only loosely implemented. To fully embody the vision of microtubule-like processing, the next steps would include building a more sophisticated coherence model, enabling the agents to hold multiple possibilities simultaneously before collapsing into a final decision.
+LegionASI decomposes complex problems into smaller, manageable steps, mirroring human cognitive processes.
 
----
+#### Current Implementation:
 
-## 2. Multi-Agent Framework with Local Language Models (LLMs)
+- **Granular Reasoning:** Sequentially break down problems, validating each step.
+- **Process Preference Model (PPM):** Provide fine-grained feedback on intermediate steps.
 
-### Implemented Elements:
-- **Agent Collaboration:** Multiple agents are instantiated, each with a unique persona (`Agent`, `GuidingAgent`, `RefinementAgent`, `EvaluationAgent`). These agents collaborate and refine their reasoning to provide a cohesive output.
-- **Memory Systems:** Agents have access to short-term memory (STM) and long-term memory (LTM) to manage dynamic and consolidated information respectively.
+#### Future Enhancements:
 
-### Missing Elements:
-- **Agent Evolution Mechanism:** The agents do not have an explicit evolution mechanism to adapt based on experiences across sessions or build long-term changes in their behavior. Introducing reinforcement learning or an experience-based adaptation system would enable agents to develop more unique and context-specific behaviors.
-- **Quantum Entanglement-Like Relationships:** The idea of agents sharing state information in real-time, akin to quantum entanglement, isn’t yet realized. Currently, interactions are deterministic and sequential rather than simultaneous or synchronized in a quantum-like fashion.
+- **Spike-Timing Dependent Plasticity (STDP):** Implement adaptive learning mechanisms for synaptic weight adjustments.
+- **Structural vs. Relational Encoding:** Develop distinct encoding strategies for factual and context-rich information.
 
----
+### 3. Monte Carlo Tree Search (MCTS) for Deep Reasoning
 
-## 3. Spiking Neural Network Memory Recall and Replay
+MCTS facilitates the exploration of diverse reasoning paths, simulation of potential outcomes, and selection of the most promising trajectories.
 
-### Implemented Elements:
-- **Spiking Neural Networks:** The `SpikingNeuron` class simulates memory recall using spiking neural networks with a Leaky Integrate-and-Fire model. This represents biological neurons firing based on membrane potential, aiding in dynamic memory recall.
-- **Memory Replay Buffer:** Agents have a memory replay buffer to simulate learning reinforcement similar to memory consolidation during sleep.
+#### Current Features:
 
-### Missing Elements:
-- **Spike-Timing Dependent Plasticity (STDP):** Adaptive learning mechanisms for synaptic weight adjustments, like STDP, are not yet implemented. Adding STDP would allow agents to modify memory connections based on the timing of events, simulating synaptic reinforcement.
-- **Detailed Replay Mechanisms:** The replay during inactive phases, similar to sleep-based memory consolidation in biological systems, is not fully realized. Enhancing this functionality would improve long-term memory integration and reinforcement.
+- **Node Expansion:** Generate multiple candidate steps to expand the search tree.
+- **Rollout and Evaluation:** Simulate and assess the correctness of each path using the PRM.
+- **Backpropagation:** Update quality values (Q-values) based on successful paths.
+- **Selection:** Balance exploration and exploitation by prioritizing paths with the highest Q-values.
 
----
+#### Future Integrations:
 
-## 4. Von Neumann Operational Algebra for Computation Simplification
+- **Quantum Decision-Making:** Leverage quantum-inspired behaviors for simultaneous consideration of multiple outcomes.
+- **Successor Representation for Prediction:** Enable agents to anticipate future states, improving long-term planning.
 
-### Not Explicitly Implemented:
-- **State Transitions with Operator Algebra:** The script does not utilize Von Neumann operator algebra for managing state transitions or decision-making. Implementing projection operators and algebraic operations would enable more sophisticated state management and non-commutative decision-making processes.
-- **Complex State Evolution Representation:** The current decision-making process is more of a heuristic randomness rather than employing formal Von Neumann algebra. The next iteration should focus on integrating these mathematical foundations to enable complex state collapses.
+### 4. Process Preference Model (PPM): Fine-Grained Memory Guidance
 
----
+PPM offers detailed feedback at each intermediate step, ensuring meaningful contributions from partial solutions.
 
-## 5. Microtubule-Like Information Processing
+#### Training the PPM:
 
-### Not Explicitly Implemented:
-- **Quantum Coherence in Decision Making:** The concept of microtubule-like quantum coherence for maintaining multiple states until a decision is made is not directly implemented. To fully simulate this behavior, agents should be capable of maintaining coherence until an external input leads to a decision.
-- **Decoherence Mechanisms:** While agents currently use quantum-inspired randomness, adding true coherence and decoherence mechanisms would make the decision-making process more biologically plausible.
+- **Positive Steps:** Mark steps leading to correct solutions as positive examples.
+- **Negative Steps:** Mark steps resulting in incorrect outcomes as negative examples.
 
----
+#### Advantages of PPM:
 
-## 6. Successor Representation for Predictive Modeling
+- **Granular Feedback:** Learn from both accurate and flawed intermediate steps.
+- **Noise Reduction:** Focus on preference pairs to minimize the impact of noisy annotations.
+- **Generalization:** Enhance reasoning across diverse problem domains.
 
-### Not Present:
-- **Predictive State Representation:** Successor representations, which enable agents to predict future states based on current information, are not used. Future development will focus on integrating successor matrices to allow agents to evaluate potential outcomes and plan accordingly.
+#### Future Enhancements:
 
----
+- **Advanced Neural Timing Mechanisms:** Integrate temporal dynamics to influence memory retrieval.
+- **Feedback Loop for Coherence:** Maintain coherence between memory processes and language model responses.
 
-## 7. Memory Dynamics - Structural vs. Relational Encoding
+### 5. Self-Reflection and Error Correction
 
-### Implemented Elements:
-- **STM and LTM:** Short-term memory serves as a volatile memory inspired by hippocampal processing, while long-term memory provides stable, consolidated storage.
+LegionASI’s memory system includes emergent self-reflection capabilities for recognizing and correcting reasoning errors.
 
-### Missing Elements:
-- **Structural vs. Relational Encoding:** The memory system does not distinguish between structural (purely factual) and relational (context-rich) encoding. Implementing different encoding strategies will allow agents to store and recall information more efficiently based on context and type.
+#### How Self-Reflection Works:
 
----
+- **Error Detection:** Identify suboptimal steps through Q-values and reward signals.
+- **Backtracking:** Retrace steps to explore alternative reasoning paths upon error detection.
+- **Re-Evaluation:** Assess new paths using the PPM, reinforcing successful corrections.
 
-## 8. LLM Integration with Memory Modules
+#### Impact on Performance:
 
-### Implemented Elements:
-- **Language Model Responses with Memory Influence:** Agents generate responses using a pre-trained LLM (e.g., Llama 3.1), influenced by memory retrieval to ensure contextual relevance.
+Enhances accuracy in multi-step reasoning and long-term strategic planning by enabling iterative refinement.
 
-### Missing Elements:
-- **Advanced Neural Timing Mechanisms:** There is no detailed simulation of theta phase precession or other timing mechanisms to influence memory retrieval. The next steps include integrating temporal dynamics that affect the timing and relevance of retrieved information.
-- **Feedback Loop for Coherence:** The system lacks a sophisticated feedback loop to ensure coherence between memory retrieval and language generation beyond simple memory lookups.
+#### Future Developments:
 
----
+- **Microtubule-Like Information Processing:** Simulate quantum coherence within decision-making processes.
+- **Decoherence Mechanisms:** Refine decision-making frameworks with true coherence and decoherence processes.
 
-## 9. General Scalability and Production Environment Design
+### 6. Quantum-Inspired Memory Representation and Dynamics
 
-### Implemented Elements:
-- **Logging and Database Management:** The system employs logging (`loguru`) and a database manager (`sqlite3`) to manage agent states and track conversations, showing early signs of scalability.
+Integrates quantum-inspired elements to emulate aspects of human consciousness and cognitive processing.
 
-### Missing Elements:
-- **Real-Time Synchronization and Scalability:** Real-time synchronization between agents, which is crucial for a live production environment, is not implemented. Quantum-inspired memory consolidation mechanisms should also be developed to optimize computational efficiency.
+#### Implemented Elements:
 
----
+- **Quantum Memory Superposition:** Represent memory states in superposition, allowing multiple states to coexist until measured.
+- **Quantum Decision-Making:** Emulate quantum uncertainty and coherence-like behaviors in decision processes.
 
-## Summary of Missing Elements and Next Steps
+#### Future Enhancements:
 
-The current implementation lays a foundational structure for a multi-agent AI system incorporating quantum-inspired memory, spiking neural dynamics, and collaborative reasoning. However, several critical elements need to be added to fully realize the intended architecture:
+- **Hamiltonian State Evolution:** Enable dynamic state evolution through Hamiltonian mechanics.
+- **Quantum Coherence Mechanisms:** Sustain multiple possibilities concurrently before committing to decisions.
 
-1. **Quantum Coherence Mechanisms:** Implement quantum coherence and decoherence for decision-making, enabling agents to handle multiple potential outcomes simultaneously.  
-2. **Hamiltonian State Evolution:** Introduce Hamiltonian evolution for a more dynamic representation of memory states, reflecting true quantum-like behaviors.  
-3. **Successor Representation for Prediction:** Develop a successor representation framework for agents to anticipate future states, improving long-term decision-making capabilities.  
-4. **Von Neumann Operational Algebra:** Integrate operator algebra to handle non-commutative interactions, enhancing decision-making processes.  
-5. **STDP and Synaptic Plasticity:** Implement spike-timing dependent plasticity to enable adaptive learning and simulate synaptic reinforcement based on temporal patterns.  
-6. **Advanced Memory Dynamics:** Differentiate between structural and relational encoding, and incorporate reconsolidation mechanisms for adaptive memory updates.  
-7. **Real-Time Agent Synchronization:** Develop real-time synchronization mechanisms and entanglement-like relationships between agents to allow for more sophisticated collaboration.  
-8. **Theta Phase Precession and Feedback Coherence:** Integrate temporal dynamics and a feedback loop for better coherence between memory and language model responses.
+### 7. Multi-Agent Framework with Local Language Models (LLMs)
 
-The next development cycle will focus on adding these advanced features to enhance the system’s capabilities, bringing it closer to simulating sophisticated cognitive processes and facilitating emergent behaviors in agent interactions.
+Enhances reasoning capabilities through collaboration among specialized agents with distinct roles.
 
----
+#### Implemented Elements:
+
+- **Agent Collaboration:** Deploy multiple agents (e.g., GuidingAgent, RefinementAgent, EvaluationAgent) to refine reasoning and produce cohesive outputs.
+- **Memory Systems:** Equip agents with short-term (STM) and long-term memory (LTM) for effective information management.
+
+#### Future Developments:
+
+- **Agent Evolution Mechanism:** Enable agents to evolve based on interactions and experiences.
+- **Quantum Entanglement-Like Relationships:** Facilitate synchronized and simultaneous interactions among agents.
+
+### 8. Spiking Neural Network Memory Recall and Replay
+
+Emulates biological neural processes for dynamic memory recall and reinforcement learning.
+
+#### Implemented Elements:
+
+- **Spiking Neural Networks:** Simulate neuron firing based on membrane potential using the Leaky Integrate-and-Fire model.
+- **Memory Replay Buffer:** Mimic memory consolidation processes through repeated exposure to past experiences.
+
+#### Future Enhancements:
+
+- **Spike-Timing Dependent Plasticity (STDP):** Allow synaptic weights to adjust based on neuronal spike timing.
+- **Detailed Replay Mechanisms:** Enhance replay functionalities for accurate sleep-based memory consolidation.
+
+### 9. Von Neumann Operational Algebra for Computation Simplification
+
+Utilizes mathematical frameworks to manage complex state transitions and streamline decision-making.
+
+#### Current Status:
+
+- **Basic Framework:** Employ heuristic methods for decision-making without formal operator algebra.
+
+#### Future Developments:
+
+- **State Transitions with Operator Algebra:** Implement projection operators and algebraic operations for sophisticated state management.
+- **Complex State Evolution Representation:** Transition to formal Von Neumann algebra for intricate state collapses and decision-making dynamics.
+
+### 10. LLM Integration with Memory Modules
+
+Ensures contextually relevant and coherent responses based on retrieved memories.
+
+#### Implemented Elements:
+
+- **Language Model Responses with Memory Influence:** Use pre-trained LLMs (e.g., Llama 3.1) to generate contextually relevant responses influenced by memory retrieval.
+
+#### Future Enhancements:
+
+- **Advanced Neural Timing Mechanisms:** Incorporate temporal dynamics to influence memory retrieval timing.
+- **Feedback Loop for Coherence:** Develop feedback loops to maintain coherence between memory retrieval and language generation.
+
+### 11. General Scalability and Production Environment Design
+
+Ensures efficient operation in real-world, scalable environments.
+
+#### Implemented Elements:
+
+- **Logging and Database Management:** Use logging (loguru) and a database manager (sqlite3) to manage agent states and track conversations.
+
+#### Future Developments:
+
+- **Real-Time Synchronization and Scalability:** Develop mechanisms for real-time synchronization between agents and implement quantum-inspired memory consolidation techniques for computational efficiency.
+
+## Future Scope: Advancing Towards Artificial General Intelligence
+
+LegionASI is progressing towards emulating the full spectrum of human cognitive functions through an intricate integration of memory systems, quantum-inspired processes, and multi-agent interactions. Key future developments include:
+
+- **Quantum Coherence Mechanisms:** Implement true quantum coherence and decoherence processes for enhanced decision-making.
+- **Hamiltonian State Evolution:** Introduce Hamiltonian dynamics for dynamic and realistic state evolution.
+- **Successor Representation for Prediction:** Develop frameworks enabling agents to anticipate future states, improving long-term planning.
+- **Von Neumann Operational Algebra:** Integrate operator algebra for managing complex, non-commutative state transitions.
+- **Spike-Timing Dependent Plasticity (STDP) and Synaptic Plasticity:** Facilitate adaptive learning and simulate synaptic reinforcement.
+- **Advanced Memory Dynamics:** Differentiate between structural and relational encoding strategies and incorporate reconsolidation mechanisms.
+- **Real-Time Agent Synchronization:** Develop synchronization mechanisms and entanglement-like relationships for cohesive collaboration.
+- **Theta Phase Precession and Feedback Coherence:** Integrate temporal dynamics and feedback loops for coherent memory retrieval and language generation.
+
+### Theoretical Foundations
+
+- **Quantum Processes in Cognition:** Explore emergent phenomena by replicating quantum coherence behaviors theorized to occur in microtubules.
+- **Von Neumann Operational Algebra:** Utilize mathematical frameworks to bridge quantum theory and classical computing, enabling superpositions and state collapses.
+
+### Strategic Development
+
+Focus on layering advancements to evolve into a real-time, adaptive, and learning architecture akin to the human brain. This structured approach aims to achieve Artificial General Intelligence (AGI), enabling autonomous learning and continuous improvement.
 
 ## 5. Moving Towards AGI
 

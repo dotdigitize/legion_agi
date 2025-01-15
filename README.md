@@ -1,4 +1,4 @@
-# LEGION ASI: Pioneering the Future of AGI Agents
+# LEGION ASI: Building the Foundation for Collective ASI Intelligence.
 
 
 ![legionasi](https://github.com/user-attachments/assets/c1ee07d7-db22-4039-8d21-d7dc8340b7c5)

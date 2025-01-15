@@ -1,12 +1,13 @@
 # LegionASI: Pioneering the Future of AGI Agents
 
-**[Official Website](https://LegionASI.com)**
+
 
 ![main concept banner3](https://github.com/user-attachments/assets/e2da92cd-89ee-4c6a-a060-2024dd08bdcc)
 
 ---
 
 ## Table of Contents
+-[Official Website](https://LegionASI.com)
 - [Overview](#overview)
 - [Features](#features)
 - [Methodology](#methodology)

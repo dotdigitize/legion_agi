@@ -1,8 +1,8 @@
 # LegionASI: Pioneering the Future of AGI Agents
 
 
+![legionasi](https://github.com/user-attachments/assets/c1ee07d7-db22-4039-8d21-d7dc8340b7c5)
 
-![main concept banner3](https://github.com/user-attachments/assets/e2da92cd-89ee-4c6a-a060-2024dd08bdcc)
 
 ---
 

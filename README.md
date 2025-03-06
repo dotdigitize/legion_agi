@@ -294,7 +294,9 @@ async def process_query_sync(
         logger.exception(f"Error processing query: {e}")
         raise HTTPException(status_code=500, detail=str(e))
 
+```
 
+---
 ### Future Scope & Development Tasks
 
 LegionAGI is a living project with ongoing enhancements. Upcoming developments include:

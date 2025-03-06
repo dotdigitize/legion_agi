@@ -1,4 +1,4 @@
-# Import necessary libraries for Cognition: LegionAI
+### mail.lite.py is a light weight one file version of LegionAGI based on the Alpha development focusing on spawning agents only###
 import ollama
 import random
 import sqlite3

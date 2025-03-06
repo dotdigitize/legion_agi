@@ -311,7 +311,7 @@ python -m legion_agi.main --mode evolve   # Evolution mode
 1. Clone the Repository:
 
 ```python
-git clone https://github.com/dotdigitize/legion-asi.git
+git clone https://github.com/dotdigitize/legion_agi.git
 ```
 
 2. Navigate to the Project Directory:

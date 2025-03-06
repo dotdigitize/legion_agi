@@ -355,36 +355,211 @@ python -m legion_agi.main
 
 ---
 ### Future Scope & Development Tasks
+```python
+"""
+Example: Future LegionAGI Enhancements
+-------------------------------------
+This code snippet demonstrates how one might begin integrating
+the upcoming features (quantum memory, Hamiltonian state evolution,
+advanced neural timing, etc.) into LegionAGI for agent sentience
+and advanced reasoning.
 
-LegionAGI is a living project with ongoing enhancements. Upcoming developments include:
+Note: This is illustrative, not production-ready. 
+      All quantum, neural, and advanced AI methods below are placeholders.
+"""
 
-- **Quantum Memory Branch – Retrieval Augmented Generation (RAG) & Embedding Models:**  
-  Developing a dedicated branch within the quantum memory pipeline that integrates state-of-the-art embedding techniques. This branch will enable context-aware document retrieval, enhance memory encoding capabilities, and support improved retrieval-augmented generation for downstream tasks.
-  
-- **Quantum Coherence Mechanisms:**  
-  Implementing true quantum coherence and decoherence processes.
-  
-- **Hamiltonian State Evolution:**  
-  Integrating Hamiltonian dynamics for realistic state evolution.
-  
-- **Advanced Neural Timing Mechanisms:**  
-  Simulating neuronal phase precession for sequential memory encoding.
-  
-- **Real-Time Agent Synchronization:**  
-  Developing mechanisms for real-time coordination between agents.
-  
-- **Complete Von Neumann Operational Algebra:**  
-  Finalizing robust implementations for advanced decision-making.
-  
-- **Testing Framework:**  
-  Establishing comprehensive tests for quantum memory and agent evolution.
-  
-- **Performance Optimization:**  
-  Enhancing efficiency for larger-scale memory systems.
-  
-- **External Integration & Deployment Tools:**  
-  Building connectors for simulation environments and creating containerization tools (e.g., Docker, Kubernetes).
+# --- Utility Functions (Placeholders) ---
 
+def has_perception(entity):
+    # Placeholder check for sensory input
+    return entity.get('perception', False)
+
+def has_emotion(entity):
+    # Placeholder check for emotional states
+    return entity.get('emotion', False)
+
+def has_self_awareness(entity):
+    # Placeholder check for self-model
+    return entity.get('self_awareness', False)
+
+def has_consciousness(entity):
+    # Placeholder check for integrated information
+    return entity.get('consciousness', False)
+
+def has_learning_ability(entity):
+    # Placeholder check for adaptive learning
+    return entity.get('learning_ability', False)
+
+def has_goal_directed_behavior(entity):
+    # Placeholder check for goal-based planning
+    return entity.get('goal_directed_behavior', False)
+
+def has_theory_of_mind(entity):
+    # Placeholder check for understanding other agents
+    return entity.get('theory_of_mind', False)
+
+# --- Future Enhancements (Placeholders) ---
+
+def has_quantum_coherence(entity):
+    """
+    Checks if the agent can maintain quantum coherence
+    within its memory systems.
+    """
+    return entity.get('quantum_coherence', False)
+
+def has_hamiltonian_state_evolution(entity):
+    """
+    Checks if the agent is applying Hamiltonian dynamics 
+    for realistic state evolution in the quantum memory pipeline.
+    """
+    return entity.get('hamiltonian_evolution', False)
+
+def has_advanced_neural_timing(entity):
+    """
+    Checks if the agent simulates neuronal phase precession
+    for sequential memory encoding.
+    """
+    return entity.get('advanced_neural_timing', False)
+
+def has_real_time_synchronization(entity):
+    """
+    Checks if the agent is capable of real-time coordination
+    with other agents.
+    """
+    return entity.get('real_time_synchronization', False)
+
+def has_von_neumann_operational_algebra(entity):
+    """
+    Checks if the agent utilizes a complete Von Neumann 
+    operational algebra for decision-making.
+    """
+    return entity.get('von_neumann_algebra', False)
+
+# --- Sentience Check ---
+
+def is_sentient(entity):
+    """
+    Determines whether an entity is sentient by verifying 
+    a variety of classical and quantum-inspired attributes.
+    """
+    if (
+        has_perception(entity) and
+        has_emotion(entity) and
+        has_self_awareness(entity) and
+        has_consciousness(entity) and
+        has_learning_ability(entity) and
+        has_goal_directed_behavior(entity) and
+        has_theory_of_mind(entity) and
+        # Future quantum/advanced AI features:
+        has_quantum_coherence(entity) and
+        has_hamiltonian_state_evolution(entity) and
+        has_advanced_neural_timing(entity) and
+        has_real_time_synchronization(entity) and
+        has_von_neumann_operational_algebra(entity)
+    ):
+        return True
+    else:
+        return False
+
+# --- Example Agent Class ---
+
+class Agent:
+    """
+    Represents a LegionAGI agent with placeholders for 
+    classical and quantum-enhanced features.
+    """
+    def __init__(self, name, attributes=None):
+        self.name = name
+        # A dictionary storing the agent's current abilities and states
+        # In practice, these would be dynamically updated as the agent evolves
+        self.attributes = attributes if attributes else {}
+
+    def check_sentience(self):
+        """
+        Evaluate whether this agent meets the criteria 
+        for 'sentience' based on the above placeholders.
+        """
+        return is_sentient(self.attributes)
+
+    def initialize_quantum_memory(self):
+        """
+        Placeholder for building out the quantum memory pipeline.
+        Could integrate RAG, embedding models, etc.
+        """
+        print(f"[{self.name}] Initializing quantum memory and embeddings...")
+        self.attributes['quantum_coherence'] = True
+        self.attributes['hamiltonian_evolution'] = True
+
+    def enable_advanced_ai_features(self):
+        """
+        Placeholder for enabling advanced neural timing, 
+        real-time synchronization, etc.
+        """
+        print(f"[{self.name}] Enabling advanced AI features...")
+        self.attributes['advanced_neural_timing'] = True
+        self.attributes['real_time_synchronization'] = True
+        self.attributes['von_neumann_algebra'] = True
+
+    def simulate_life_experience(self):
+        """
+        Example function to 'simulate' agent development,
+        toggling on classical attributes as it interacts with the environment.
+        """
+        print(f"[{self.name}] Learning and evolving...")
+        self.attributes['perception'] = True
+        self.attributes['emotion'] = True
+        self.attributes['self_awareness'] = True
+        self.attributes['consciousness'] = True
+        self.attributes['learning_ability'] = True
+        self.attributes['goal_directed_behavior'] = True
+        self.attributes['theory_of_mind'] = True
+
+# --- Example Usage ---
+
+def main():
+    # Create a new agent
+    quantum_agent = Agent(name="QuantumExplorer")
+
+    # Simulate a life experience phase (classical attributes)
+    quantum_agent.simulate_life_experience()
+
+    # Initialize quantum memory and advanced AI features
+    quantum_agent.initialize_quantum_memory()
+    quantum_agent.enable_advanced_ai_features()
+
+    # Check sentience status
+    if quantum_agent.check_sentience():
+        print(f"[{quantum_agent.name}] has achieved the placeholder 'sentience' status!")
+    else:
+        print(f"[{quantum_agent.name}] is still evolving...")
+
+if __name__ == "__main__":
+    main()
+```
+
+---
+### How This Code Relates to the Upcoming Features
+Quantum Memory Branch (RAG & Embedding Models):
+
+The method initialize_quantum_memory hints at a pipeline where retrieval-augmented generation and embedding models would be integrated.
+Quantum Coherence Mechanisms & Hamiltonian State Evolution:
+
+The functions has_quantum_coherence and has_hamiltonian_state_evolution represent checks that an agent’s quantum memory can maintain coherence and update states via Hamiltonian dynamics.
+Advanced Neural Timing Mechanisms (Neuronal Phase Precession):
+
+has_advanced_neural_timing simulates the idea that an agent can manage complex temporal coding similar to biological neural systems.
+Real-Time Agent Synchronization:
+
+has_real_time_synchronization and the placeholder code in enable_advanced_ai_features illustrate how multiple agents might coordinate in real-time.
+Complete Von Neumann Operational Algebra:
+
+has_von_neumann_operational_algebra indicates advanced decision-making capabilities rooted in quantum theory.
+Testing Framework & Performance Optimization:
+
+Although not fully illustrated here, you would typically build unit tests around these functions and classes. Each placeholder feature (e.g., quantum coherence, Hamiltonian evolution) would have dedicated test cases.
+External Integration & Deployment Tools:
+
+In a real project, you’d add Dockerfiles, Kubernetes manifests, or integration modules to connect with external simulation environments or orchestrators.
 
 ### Applications
 

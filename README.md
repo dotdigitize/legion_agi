@@ -34,13 +34,14 @@
 
 ## Overview
 
-**LegionAGI** is a cutting-edge framework that explores artificial general intelligence (AGI) through quantum-inspired memory simulation and multi-agent collaboration. It merges a dynamic multi-agent system with advanced reasoning methodologies—**PAST**, **RAFT**, and **EAT**—to simulate human-like cognition and consciousness. By integrating open-source local language models and evolving agent architectures, LegionAGI addresses current limitations in AI and lays a solid foundation for next-generation AGI.
+**LegionAGI** is a cutting-edge framework that explores artificial general intelligence (AGI) through quantum-inspired memory simulation and multi-agent collaboration. It merges a dynamic multi-agent system with advanced reasoning methodologies—**PAST**, **RAFT**, and **EAT**—to simulate human-like cognition and consciousness. By integrating open-source local language models via [ollama](https://github.com/ollama/ollama) and evolving agent architectures, LegionAGI addresses current limitations in AI and lays a solid foundation for next-generation AGI.
 
 In this framework, agents collaborate on complex problem-solving, drawing from theories such as Global Workspace Theory and Integrated Information Theory while also incorporating quantum cognitive processes.
 
 ### Screenshot
 
 ![LegionAGI Screenshot](https://github.com/user-attachments/assets/83a892cb-ed6b-466a-9ac8-e1e7290888ed)
+
 
 ---
 

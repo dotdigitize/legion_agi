@@ -296,6 +296,62 @@ async def process_query_sync(
 
 ```
 
+###  Quick Start & Installation
+Quick Start
+
+```python
+git clone https://github.com/dotdigitize/legion-asi.git
+cd legion-asi
+pip install -r requirements.txt
+python -m legion_agi.main         # Tool mode
+python -m legion_agi.main --mode evolve   # Evolution mode
+```
+
+### Installation and Setup
+1. Clone the Repository:
+
+```python
+git clone https://github.com/dotdigitize/legion-asi.git
+```
+
+2. Navigate to the Project Directory:
+
+```python
+cd LegionAGI
+```
+
+3. Create and Activate a Virtual Environment:
+
+```python
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+4. Install Dependencies:
+
+```python
+pip install -r requirements.txt
+```
+
+5. Set Up Directories:
+
+```python
+mkdir -p data/models logs
+```
+
+
+6. (Optional) Download Required Models:
+
+```python
+ollama pull llama3.1:8b
+```
+
+7. Run the System:
+
+```python
+python -m legion_agi.main
+```
+
 ---
 ### Future Scope & Development Tasks
 

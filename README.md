@@ -358,37 +358,26 @@ python -m legion_agi.main
 
 LegionAGI is a living project with ongoing enhancements. Upcoming developments include:
 
-- **Quantum Coherence Mechanisms: Implementing true quantum coherence and decoherence processes.
-
-- **Hamiltonian State Evolution: Integrating Hamiltonian dynamics for realistic state evolution.
-
-- **Advanced Neural Timing Mechanisms: Simulating neuronal phase precession for sequential memory encoding.
-
-- **Real-Time Agent Synchronization: Developing mechanisms for real-time coordination between agents.
-
-- **Complete Von Neumann Operational Algebra: Finalizing robust implementations for advanced decision-making.
-
-- **Testing Framework: Establishing comprehensive tests for quantum memory and agent evolution.
-
-- **Performance Optimization: Enhancing efficiency for larger-scale memory systems.
-
-- **External Integration & Deployment Tools: Building connectors for simulation environments and creating containerization tools (e.g., Docker, Kubernetes).
+- Quantum Coherence Mechanisms:** Implementing true quantum coherence and decoherence processes.
+- Hamiltonian State Evolution:** Integrating Hamiltonian dynamics for realistic state evolution.
+- Advanced Neural Timing Mechanisms:** Simulating neuronal phase precession for sequential memory encoding.
+- Real-Time Agent Synchronization:** Developing mechanisms for real-time coordination between agents.
+- Complete Von Neumann Operational Algebra:** Finalizing robust implementations for advanced decision-making.
+- Testing Framework:** Establishing comprehensive tests for quantum memory and agent evolution.
+- Performance Optimization:** Enhancing efficiency for larger-scale memory systems.
+- External Integration & Deployment Tools:** Building connectors for simulation environments and creating containerization tools (e.g., Docker, Kubernetes).
+- Retrieval Augmented Generation (RAG) & Embedding Models:** Integrating state-of-the-art embedding techniques to enable context-aware document retrieval and improved generative capabilities.
 
 
 ### Applications
 
 LegionAGI’s flexible framework supports a wide range of applications:
 
-
-- **Artificial General Intelligence (AGI): Simulating human-like reasoning and cognitive processes.
-
-- **Collaborative Problem Solving: Facilitating brainstorming, research, and strategic decision-making.
-
-- **Machine Learning & Deep Learning: Optimizing models through dynamic agent collaboration.
-
-- **Business Optimization: Providing expert simulations for refining business strategies.
-
-- **Educational Tools: Enabling enriched learning experiences through multi-domain expert interactions.
+- Artificial General Intelligence (AGI): Simulating human-like reasoning and cognitive processes.
+- Collaborative Problem Solving: Facilitating brainstorming, research, and strategic decision-making.
+- Machine Learning & Deep Learning: Optimizing models through dynamic agent collaboration.
+- Business Optimization: Providing expert simulations for refining business strategies.
+- Educational Tools: Enabling enriched learning experiences through multi-domain expert interactions.
 
 ### Collaboration & Contribution
 

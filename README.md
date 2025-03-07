@@ -35,9 +35,30 @@
 
 ## Overview
 
-**LegionAGI** is a cutting-edge framework that explores artificial general intelligence (AGI) through quantum-inspired memory simulation and multi-agent collaboration. It merges a dynamic multi-agent system with advanced reasoning methodologies—**PAST**, **RAFT**, and **EAT**—to simulate human-like cognition and consciousness. By integrating open-source local language models via [ollama](https://github.com/ollama/ollama) and evolving agent architectures, LegionAGI addresses current limitations in AI and lays a solid foundation for next-generation AGI.
+**LegionAGI** is an advanced artificial general intelligence (AGI) framework that integrates quantum-inspired memory simulation with a dynamic multi-agent system to emulate human-like cognition and consciousness. By employing sophisticated reasoning methodologies—**PAST**, **RAFT**, and **EAT**—LegionAGI aims to overcome current AI limitations and establish a robust foundation for next-generation AGI.
 
-In this framework, agents collaborate on complex problem-solving, drawing from theories such as Global Workspace Theory and Integrated Information Theory while also incorporating quantum cognitive processes.
+The framework dynamically spawns specialized agents based on user input, enabling collaborative brainstorming, refinement, and evaluation of complex problem-solving strategies. It incorporates **quantum-simulated memory**, enhancing data processing and storage capabilities to support sophisticated cognitive functions. 
+
+By integrating open-source local language models via [ollama](https://github.com/ollama/ollama), LegionAGI facilitates natural language understanding and generation capabilities while evolving agent architectures to simulate consciousness.
+
+## Key Features
+
+- **Multi-Agent Collaboration** – LegionAGI fosters collaboration between specialized AI agents that coordinate in real-time to solve complex problems.  
+- **Quantum Simulated Memory** – The system leverages a quantum-inspired approach to memory, allowing for enhanced recall, data integration, and reasoning.  
+- **Advanced Reasoning Methodologies** – Using **PAST** (Personas, Actions, Solutions, and Tasks), **RAFT** (Reasoning, Analysis, Feedback, and Thought), and **EAT** (Evaluation, Action, and Testing), LegionAGI refines decision-making processes dynamically.  
+- **Retrieval-Augmented Generation (RAG) Integration** – The framework incorporates RAG models, enabling efficient document retrieval, embedding-based memory encoding, and contextual learning.  
+- **Open-Source AI Model Integration** – LegionAGI is compatible with open-source LLMs, allowing users to expand agent capabilities dynamically.  
+
+## Theoretical Foundations
+
+LegionAGI draws inspiration from leading cognitive theories to advance AGI research:
+
+- **Global Workspace Theory (GWT)** – Supports the framework’s ability to integrate multiple cognitive processes into a single, coherent awareness model.  
+- **Integrated Information Theory (IIT)** – Provides a theoretical basis for the emergence of artificial consciousness through information integration.  
+- **Quantum Cognitive Processes** – Inspired by quantum mechanics, LegionAGI explores non-classical models of cognition to enhance decision-making and probabilistic reasoning.  
+
+By combining these elements, **LegionAGI** seeks to push the boundaries of artificial sentience and consciousness, paving the way for self-improving, reasoning-based AGI systems.
+
 
 ### Screenshot
 

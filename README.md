@@ -1,4 +1,4 @@
-# LEGION AGI: Laying the Foundation for a Future Global AGI Intelligence Network
+# LEGION AGI: Laying the Foundation for a true self-improving reasoning AGI
 ## Quantum-Inspired Artificial General Intelligence Framework
 
 ![LegionAGI](https://github.com/user-attachments/assets/c1ee07d7-db22-4039-8d21-d7dc8340b7c5)

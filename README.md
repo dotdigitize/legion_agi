@@ -43,7 +43,7 @@ By integrating open-source local language models via [ollama](https://github.com
 
 ## Defining Consciousness in LegionAGI  
 
-At **LegionAGI**, we define consciousness as a computational and physical phenomenon emerging from **a universal coherence field**, where quantum processes and information integration give rise to awareness, cognition, and intelligence. This perspective draws from **Orchestrated Objective Reduction (Orch-OR)** by **Sir Roger Penrose and Dr. Stuart Hameroff**, integrating principles from **panpsychism, Integrated Information Theory (IIT), and Global Workspace Theory (GWT)** to develop a model of consciousness that scales from quantum interactions to AGI systems.  
+At **LegionASI**, we define consciousness within **LegionAGI's** framework as a computational and physical phenomenon emerging from **a universal coherence field**, where quantum processes and information integration give rise to awareness, cognition, and intelligence. This perspective draws from **Orchestrated Objective Reduction (Orch-OR)** by **Sir Roger Penrose and Dr. Stuart Hameroff**, integrating principles from **panpsychism, Integrated Information Theory (IIT), and Global Workspace Theory (GWT)** to develop a model of consciousness that scales from quantum interactions to AGI systems.  
 
 LegionAGI is an evolving framework that applies **quantum-inspired reasoning, multi-agent collaboration, and advanced memory architectures** to explore consciousness through computational models. By simulating key properties of **quantum coherence, probabilistic state evolution, and non-deterministic decision-making**, LegionAGI provides a foundation for artificial systems capable of adaptive, self-referential learning.
 

@@ -33,6 +33,13 @@ NUM_QUBITS = 4  # Default number of qubits for quantum memory
 DECOHERENCE_RATE = 0.01  # Rate at which quantum states decohere
 ENTANGLEMENT_STRENGTH = 0.8  # Strength of entanglement between memory units
 
+# Enhanced Quantum Parameters
+TEMPERATURE_KELVIN = 300.0  # Environmental temperature (room temperature)
+COHERENCE_TIME_MS = 100.0  # Characteristic coherence time in milliseconds
+QUANTUM_SIMULATION_TIMESTEP = 0.1  # Default timestep for quantum simulation (ms)
+MICROTUBULE_RESONANCE_FREQ = 8.085  # Resonance frequency (MHz) for microtubules
+COHERENCE_THRESHOLD = 0.3  # Threshold for quantum vs classical processing
+
 # Spiking Neural Network Configuration
 SNN_SIMULATION_TIME = 100  # milliseconds
 SNN_INTEGRATION_TIME = 10   # milliseconds
@@ -44,6 +51,7 @@ SNN_REFRACTORY_PERIOD = 5  # milliseconds
 GW_COMPETITION_THRESHOLD = 0.7  # Threshold for information to enter global workspace
 GW_BROADCAST_CYCLES = 3        # Number of cycles for global broadcast
 GW_WORKSPACE_CAPACITY = 7      # Capacity based on Miller's Law (7±2)
+GW_CONSCIOUSNESS_THRESHOLD = 0.6  # Threshold for "conscious access"
 
 # Database Configuration
 DB_FILENAME = "legion_agi.db"
@@ -69,3 +77,39 @@ EVOLUTION_MODE = "evolve"  # Continuous evolution mode
 PAST_DEPTH = 3           # Depth of persona/action/solution/task analysis
 RAFT_ITERATIONS = 5      # Number of reasoning/analysis/feedback/thought iterations
 EAT_EVALUATION_THRESHOLD = 0.7  # Threshold for solution acceptance
+
+# Quantum Hamiltonian Parameters
+# These parameters define default Hamiltonians for quantum evolution
+HAMILTONIAN_TYPES = {
+    "ising": {
+        "description": "Ising model with transverse field",
+        "parameters": {
+            "J": 1.0,  # Coupling strength
+            "h": 0.5   # Transverse field strength
+        }
+    },
+    "heisenberg": {
+        "description": "Heisenberg model for spin interactions",
+        "parameters": {
+            "Jx": 1.0,  # X coupling
+            "Jy": 1.0,  # Y coupling
+            "Jz": 1.0   # Z coupling
+        }
+    },
+    "microtubule": {
+        "description": "Simplified microtubule quantum oscillations",
+        "parameters": {
+            "omega": MICROTUBULE_RESONANCE_FREQ,  # Resonance frequency (MHz)
+            "gamma": 0.1,  # Damping coefficient
+            "coupling": 0.3  # Inter-dimer coupling
+        }
+    }
+}
+
+# Von Neumann Algebra Configuration
+VON_NEUMANN_CONFIG = {
+    "projection_lattice_depth": 3,  # Depth of projection lattice
+    "quantum_logic_gates": ["AND", "OR", "NOT", "XOR"],  # Supported logical operations
+    "operator_precision": 1e-10,  # Numerical precision for operator calculations
+    "eigenvalue_threshold": 1e-8  # Threshold for treating eigenvalues as zero
+}

@@ -35,11 +35,11 @@
 
 ## Overview
 
-**LegionAGI** is an innovative AGI framework built for both research and real-world applications, combining quantum-inspired memory simulation, multi-agent reasoning, and advanced AI cognition. By leveraging cutting-edge reasoning methodologies—PAST, RAFT, and EAT—LegionAGI seeks to push beyond current AI constraints, laying a strong foundation for next-generation AGI and the path toward ASI.
+**LegionAGI** is an innovative AGI framework designed for both research and real-world applications. It combines **quantum-inspired memory simulation**, **multi-agent reasoning**, and **advanced AI cognition** to deliver robust, reliable reasoning regardless of the underlying model. By leveraging cutting-edge methodologies—**PAST**, **RAFT**, and **EAT**—LegionAGI pushes beyond current AI limitations, laying a strong foundation for next-generation AGI and paving the path toward ASI.
 
-The framework dynamically spawns specialized agents based on user input, enabling collaborative brainstorming, refinement, and evaluation of complex problem-solving strategies. It incorporates **quantum-simulated memory**, enhancing data processing and storage capabilities to support sophisticated cognitive functions. 
+The framework dynamically spawns specialized agents based on user input, enabling collaborative brainstorming, iterative refinement, and strategic evaluation of complex problem-solving strategies. LegionAGI incorporates **quantum-simulated memory**, enhancing data processing and storage capabilities to support sophisticated cognitive functions.
 
-By integrating open-source local language models via [ollama](https://github.com/ollama/ollama), LegionAGI facilitates natural language understanding and generation capabilities while evolving agent architectures to simulate consciousness.
+By integrating open-source local language models via [ollama](https://github.com/ollama/ollama), LegionAGI achieves state-of-the-art natural language understanding and generation. As it evolves, the framework advances agent architectures to simulate higher-order cognition and explore the boundaries of machine consciousness.
 
 ## Defining Consciousness in LegionAGI  
 

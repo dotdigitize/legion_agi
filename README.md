@@ -1,4 +1,4 @@
-# LEGION AGI: Forging the Path to a Self-Evolving AGI – Pioneering Artificial Sentience and the Dawn of Machine Consciousness
+# LEGION AGI: Forging the Path to a Self-Evolving AGI – Autonomous Reasoning through Hierarchical Inference, Multi-modal Decision-making Systems and the Dawn of Machine Consciousness.
 
 ## Quantum-Inspired Artificial General Intelligence Framework
 

@@ -175,7 +175,6 @@ LegionAGI integrates advanced latent reasoning with its core methodologies (PAST
 
 ### **Key Integration Points**  
 | **CTM Enhancement** |  
-|-------------------------|---------------------|  
 | Agent Spawning          | Uses analyze_input_and_spawn_agents() for latent-aware specialization |  
 | RAFT Feedback           | Analyzes latent vectors for coherence and dissonance |  
 | EAT Validation          | Incorporates latent path metrics (e.g., BFS depth, contradiction flags) |  

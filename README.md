@@ -149,16 +149,16 @@ LegionAGI integrates advanced latent reasoning with its core methodologies (PAST
    - Example: A medical query spawns analytical (data analysis), creative (novel hypotheses), and strategic (treatment prioritization) agents.  
 
 2. **Latent Exploration**  
-   - Agents generate **BFS trees** in the **Continuous Thought Matrix (CTM)** to explore parallel reasoning paths [[1]][[4]].  
+   - Agents generate **BFS trees** in the **Continuous Thought Matrix (CTM)** to explore parallel reasoning paths.  
    - *PAST Integration*: Each agent’s persona (e.g., "neurologist") shapes its latent exploration priorities.  
 
 3. **Global Synthesis**  
-   - Agents share latent vectors via the **Neurotransmitter Protocol**, enabling cross-domain synthesis [[3]].  
+   - Agents share latent vectors via the **Neurotransmitter Protocol**, enabling cross-domain synthesis.  
    - *RAFT Integration*: Real-time feedback loops refine paths by comparing latent vectors across agents.  
 
 4. **Output Finalization**  
-   - Converts the optimal latent path to language while retaining latent metadata for future coherence checks [[7]].  
-   - *EAT Integration*: Final answers are validated against latent coherence scores (≥0.35 for proto-consciousness) [[5]].  
+   - Converts the optimal latent path to language while retaining latent metadata for future coherence checks.  
+   - *EAT Integration*: Final answers are validated against latent coherence scores (≥0.35 for proto-consciousness).  
 
 ### **Core Methodologies Enhanced**  
 #### PAST Method (Probabilistic Analysis of State Transitions)  

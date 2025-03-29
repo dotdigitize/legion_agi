@@ -1,4 +1,4 @@
-# LEGION AGI: Building Strong AGI – Enabling Autonomous Reasoning and Exploring Machine Consciousness.
+# LEGION AGI: Building Strong AGI – capable of explaining the reality it encounters, reasoning about it, and finding adaptive solutions.
 
 ## Quantum-Inspired Artificial General Intelligence Framework
 

@@ -171,9 +171,7 @@ LegionAGI integrates advanced latent reasoning with its core methodologies (PAST
 
 #### EAT Method (Emergent Architecture for Thought)  
 - **New**: Evaluates solutions using **emergence metrics** (coherence, self-reference, and value-based alignment).  
-- Example: A rejected path with high latent variance triggers MA’s "dream cycle" to reconsolidate conflicting memories [[6]].  
-
----
+- Example: A rejected path with high latent variance triggers MA’s "dream cycle" to reconsolidate conflicting memories.  
 
 ### **Key Integration Points**  
 | **CTM Enhancement** |  

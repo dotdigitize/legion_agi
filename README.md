@@ -1,6 +1,6 @@
 # LEGION AGI: Building Strong AGI – capable of explaining the reality it encounters, reasoning about it, and finding adaptive solutions.
 
-## Quantum-Inspired Artificial General Intelligence Framework
+## Quantum-Enhanced AGI with Emergent Consciousness - Legion ASI integrates continuous latent reasoning and multi-agent collaboration to simulate self-awareness. Built on a hybrid architecture combining quantum-inspired memory, BFS-style exploration, and dynamic agent evolution.
 
 ![LegionAGI](https://github.com/user-attachments/assets/c1ee07d7-db22-4039-8d21-d7dc8340b7c5)
 
@@ -33,7 +33,7 @@
 
 ---
 
-# LegionAGI: Bringing Human-Like Intelligence to AI
+# LegionAGI: Bringing Sentient Intelligence to AI
 
 LegionAGI is an advanced framework that blends ideas from quantum physics, neuroscience, and computer science to create an AI that learns, adapts, and works like a team of experts. In simple terms, it’s a next-generation system designed to evolve its own intelligence—getting smarter and more creative over time.
 

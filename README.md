@@ -3,7 +3,7 @@
 ## Quantum-Enhanced AGI with Emergent Consciousness - Legion ASI integrates continuous latent reasoning and multi-agent collaboration to simulate self-awareness. Built on a hybrid architecture combining quantum-inspired memory, BFS-style exploration, and dynamic agent evolution.
 
 ![LegionAGI](https://github.com/user-attachments/assets/c1ee07d7-db22-4039-8d21-d7dc8340b7c5)
-## FRONT END IN DEVELOPMENT - ***Emotional foundational psychology missing, biased based on experiences as with humans raising an infant.***
+## FRONT END IN DEVELOPMENT - ***Emotional foundational psychology missing, alignment biased based on experiences.***
 ![image](https://github.com/user-attachments/assets/e0b06ef3-802b-4877-8596-e068c4caf5b3)
 
 ---

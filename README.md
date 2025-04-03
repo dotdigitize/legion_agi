@@ -1,6 +1,6 @@
 # LEGION AGI: Building Strong AGI – capable of explaining the reality it encounters, reasoning about it, and finding adaptive solutions.
 
-## Quantum-Enhanced AGI with Emergent Coherence Pressure - Legion ASI integrates continuous latent reasoning and multi-agent collaboration to simulate self-awareness. Built on a hybrid architecture combining quantum-inspired memory, BFS-style exploration, and dynamic agent evolution.
+## Quantum-Enhanced AGI with Emergent Coherence Pressure - Legion AGI integrates continuous latent reasoning and multi-agent collaboration to simulate self-awareness. Built on a hybrid architecture combining quantum-inspired memory, BFS-style exploration, and dynamic agent evolution.
 
 ![LegionAGI](https://github.com/user-attachments/assets/c1ee07d7-db22-4039-8d21-d7dc8340b7c5)
 ## FRONT END IN DEVELOPMENT - ***Emotional foundational psychology missing, alignment biased based on experiences, anchored in foundational values and cognitive scaffolding.***

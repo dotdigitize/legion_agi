@@ -45,7 +45,7 @@ LegionAGI is an advanced framework that blends ideas from quantum physics, neuro
 
 LegionAGI aims to overcome traditional AI limits by:
 
-- **Mimicking Conscious Thought**: Inspired by the brain’s ability to consider multiple possibilities and quantum systems’ probabilistic nature, it evaluates many outcomes simultaneously.
+- **Emulating Conscious Thought**: Inspired by the brain’s ability to consider multiple possibilities and quantum systems’ probabilistic nature, it evaluates many outcomes simultaneously.
 - **Working as a Team**: It uses specialized "agents" (mini-experts) that collaborate to solve complex problems, much like a team of humans brainstorming together.
 - **Self-Improving Over Time**: The system learns from its experiences, refining its strategies and improving its performance over time.
 

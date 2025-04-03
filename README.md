@@ -129,6 +129,11 @@ By combining these elements, **LegionAGI** seeks to push the boundaries of artif
 ![LegionAGI Screenshot](https://github.com/user-attachments/assets/83a892cb-ed6b-466a-9ac8-e1e7290888ed)
 
 
+## FRONT END IN DEVELOPMENT 
+
+- ***Emotional foundational psychology missing, alignment biased based on experiences, anchored in foundational values and cognitive scaffolding.***
+![image](https://github.com/user-attachments/assets/e0b06ef3-802b-4877-8596-e068c4caf5b3)
+
 ---
 
 ## Features

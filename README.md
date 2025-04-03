@@ -54,7 +54,7 @@ LegionAGI aims to overcome traditional AI limits by:
 ## How It Works
 
 ### 1. Quantum-Inspired Memory
-- **Concept**: Stores information as a "probability cloud" of possibilities, enabling simultaneous exploration of multiple solutions.
+- **Concept**: Stores information as a "probability coherence cloud" of possibilities, enabling simultaneous exploration of multiple solutions.
 - **Example**: In medical diagnosis, LegionAGI evaluates many potential conditions at once before narrowing down to the most likely one.
 
 ### 2. Multi-Agent Collaboration

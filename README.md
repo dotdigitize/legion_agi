@@ -1,4 +1,6 @@
-# LEGION AGI: Building Strong AGI – capable of explaining the reality it encounters, reasoning about it, and finding adaptive solutions.
+# MAJOR UPDATE ON PARADIGM COMING SOON - WITH RESEARCH PAPER COMING OUT
+
+#LEGION AGI: Building Strong AGI – capable of explaining the reality it encounters, reasoning about it, and finding adaptive solutions.
 
 ## Quantum-Enhanced AGI with Emergent Coherence Pressure - Legion AGI integrates continuous latent reasoning and multi-agent collaboration to simulate self-awareness. Built on a hybrid architecture combining quantum-inspired memory, BFS-style exploration, and dynamic agent evolution.
 
